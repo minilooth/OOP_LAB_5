@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Exceptions">
+      <UniqueIdentifier>{02b023d0-35f6-43bd-9395-58dd4faed12e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Exceptions\Bank">
+      <UniqueIdentifier>{46d97c07-0670-44cd-8da2-74fecac2d4b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Exceptions\Input">
+      <UniqueIdentifier>{a766cf7c-d3ab-408c-bbc4-992f5345d75f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Exceptions\Employee">
+      <UniqueIdentifier>{28fe9a22-f1d0-4ae3-91c4-cb5cf60ce8d2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bank.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Employee.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="City.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BankHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bank.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Employee.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="City.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BankHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BankNotFoundException.h">
+      <Filter>Header Files\Exceptions\Bank</Filter>
+    </ClInclude>
+    <ClInclude Include="EmptyBankListException.h">
+      <Filter>Header Files\Exceptions\Bank</Filter>
+    </ClInclude>
+    <ClInclude Include="BankAlreadyExistsException.h">
+      <Filter>Header Files\Exceptions\Bank</Filter>
+    </ClInclude>
+    <ClInclude Include="InvalidInputException.h">
+      <Filter>Header Files\Exceptions\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="EmptyEmployeesListException.h">
+      <Filter>Header Files\Exceptions\Employee</Filter>
+    </ClInclude>
+    <ClInclude Include="EmployeeNotFoundException.h">
+      <Filter>Header Files\Exceptions\Employee</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
